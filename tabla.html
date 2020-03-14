@@ -4,21 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablas</title>
+    <style>
+        body{
+            background-color: violet;
+        }
+        #titulo{
+            color: cornsilk;
+            background-color: black;
+            border: 3px solid red;
+        }
+        #kkhuate{
+            background-color: rgb(163, 7, 111);
+        }
+        #columna{
+            color: white;
+        }
+        #pie{
+            background-color: rgb(59, 1, 55);
+            position: relative;
+            bottom: 20px;;
+        }
+        #letritas{
+            color: white;
+            text-align: right;
+        }
+        </style>
 </head>
 <body>
+    <div id="titulo">
+        <h2>Listado de personas</h2>
+    </div>
+    <div id="kkhuate">
     <table style="border: 1px solid black; border-collapse: collapse;">
         <tr>
-            <th style="border: 1px solid black;">Nombre</th>
-            <th style="border: 1px solid black;">Apellido</th>
-            <th style="border: 1px solid black;">Edad</th>
+            <th id="columna" style="border: 1px solid black;">Nombre</th>
+            <th id="columna" style="border: 1px solid black;">Apellido</th>
+            <th id="columna" style="border: 1px solid black;">Edad</th>
         </tr>
         <tbody>
             <tr>
-                <th style="border: 1px solid black;">Celina</th>
-                <th style="border: 1px solid black;">Torres</th>
-                <th style="border: 1px solid black;">17</th>
+                <th style="border: 1px solid black;">Ex</th>
+                <th style="border: 1px solid black;">Elsa</th>
+                <th style="border: 1px solid black;">30</th>
             </tr>
         </tbody>
     </table>
+    </div>
+    <footer id="pie">
+        <h3 id="letritas">1235</h3>
+    </footer>
 </body>
 </html>
